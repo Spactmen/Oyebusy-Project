@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Mulish:wght@400;600;800&family=Poppins:wght@300;500;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="/styles.css">
+
+    <!-- <link rel="stylesheet" href="/swiper-bundle.min.css"> -->
+    <!-- <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/> -->
+
+</head>
+
+<body>
+    <div class="main-body">
+        <div id="overlay"></div>
+        <div id="mobile-menu" class="mobile-main-menu">
+            <ul class="hamburger-list">
+                <li class="hamburger-list-item"><a href="#">Blog</a></li>
+                <li class="hamburger-list-item"><a href="#">Career</a></li>
+                <li class="hamburger-list-item"><a href="#">My Account</a></li>
+                <li>
+                    <button class="nav-btn">
+                        <img src="/icon1.png">
+                        <!-- <i class="fa-brands fa-google-play"> Download More</i> -->
+                        <p class="nav-text">Download More</p>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        
+        <header class="primary-header">
+            <div class="nav-primary">
+                <img class="logo" src="/logo1.png">
+                <!-- <div class="nav-data">
+                    <img class="vector" src="/location.png"></img>
+                    <p class="logo-data">1st Floor, H 356, Block B, Sector 22, Noida, Uttar Pradesh 201301</p>
+                    <img class="vector" src="/down-arrow.png">
+                </div> -->
+            </div>
+            <div class="nav-secondary">
+                <div class="nav-secondary-links">
+                    <ul class="nav-list" role="list">
+                        <li class="list-item"><a href="/index.html">Blog</a></li>
+                        <li class="list-item"><a href="/index.html">Carrer</a></li>
+                        <li class="list-item"><a href="/index.html">My Account</a></li>
+                        <img class="vector" src="/down-arrow.png">
+                    </ul>
+
+                </div>
+                <div class="nav-secondary-right">
+
+                    <svg class="cart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path
+                            d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z" />
+                    </svg>
+                    <button class="nav-btn">
+                        <img src="/icon1.png">
+                        <!-- <i class="fa-brands fa-google-play"> Download More</i> -->
+                        <p class="nav-text">Download More</p>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <button id="menu-btn" class="hamburger" type="button">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+        </button>
+
+
+        <main>
+            <section class="container">
+                <div class="container-primary">
+                    <!-- <img src="/ac.png"> -->
+                    <p class="primary-bio"> Home services,<br class="break"><span class="span">on demand</span> </p>
+                    <div class="search-box">
+                        <div>
+                            <img class="search-icon" src="/search.png">
+                        </div>
+                        <input class="first-input-box" type="text" placeholder="Search for a service">
+                    </div>
+                </div>
+                <div class="container-secondary">
+                    <div class="sub-container-1">
+                        <h2 class="container-secondary-heading">What are you <span class="span-2">looking for?</span>
+                        </h2>
+                    </div>
+                    <div class="sub-container-middle">
+                        <img src="/services.png" class="sub-container-img img2">
+                        <img src="/sevices2.png" class="sub-container-img img1">
+                    </div>
+                    <div class="offer">
+                        <div class="offer-btn">
+                            <p>Flat $400 OFF</p>
+                            <img src="/down-aroow2.png" class="arrow-img">
+                        </div>
+                    </div>
+                    <div class="sub-container-2">
+                        <div class="sub-div">
+                            <img class="sub-div-img" src="/comb.png">
+                            <p class="sub-div-data data-1">Salon at home</p>
+                        </div>
+                        <div class="sub-div">
+                            <img class="sub-div-img" src="/electrician.png">
+                            <p class="sub-div-data data-2">Electrician</p>
+                        </div>
+                        <div class="sub-div">
+                            <img class="sub-div-img img-3" src="/plumber.png">
+                            <p class="sub-div-data data-3">Plumber</p>
+                        </div>
+                        <div class="sub-div">
+                            <img class="sub-div-img" src="/cctv.png">
+                            <p class="sub-div-data data-4">CCTV</p>
+                        </div>
+                        <div class="sub-div">
+                            <img class="sub-div-img img-5" src="/ac service.png">
+                            <p class="sub-div-data data-5">AC Services</p>
+                        </div>
+                        <div class="sub-div">
+                            <img class="sub-div-img img-6" src="/transport.png">
+                            <p class="sub-div-data data-6">Pockers and movers</p>
+                        </div>
+                        <div class="sub-div">
+                            <img class="sub-div-img" src="/cleaner.png">
+                            <p class="sub-div-data data-7">Cleaning</p>
+                        </div>
+                        <div class="sub-div">
+                            <img class="sub-div-img" src="/painter.png">
+                            <p class="sub-div-data data-8">House Painting</p>
+                        </div>
+                        <div class="sub-div">
+                            <img class="sub-div-img" src="/home appliances.png">
+                            <p class="sub-div-data data-9">Home Appliances</p>
+                        </div>
+                        <div class="sub-div">
+                            <img class="sub-div-img" src="/disinfection.png">
+                            <p class="sub-div-data data-10">Disinfection</p>
+                        </div>
+                        <div class="sub-div">
+                            <img class="sub-div-img" src="/pest control.png">
+                            <p class="sub-div-data data-11">Pest Control</p>
+                        </div>
+                        <div class="sub-div">
+                            <img class="sub-div-img" src="/carpenter.png">
+                            <p class="sub-div-data data-12">Carpenter</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section class="wrapper">
+                <div class="wrapper-data-1">
+                    <h2 class="wrapper-heading">
+                        Trending Services
+                    </h2>
+                </div>
+                <div class="wrapper-data-2">
+                    <p class="wrapper-bio">Premium Home Services</p>
+                </div>
+                <!-- <div class="wrapper-content"></div> -->
+                <div class="wrapper-data-3">
+                    <div class="cards card-1">
+                        <img class="card-img" src="/window-ac.png">
+                        <p class="card-data">Air-Conditioner <br><span class="card-data-span">Services</span></p>
+                    </div>
+                    <div class="cards card-2">
+                        <img class="card-img" src="/normal ac.png">
+                        <p class="card-data">Ac Installation</p>
+                    </div>
+                    <div class="cards card-3">
+                        <img class="card-img" src="/sofa.png">
+                        <p class="card-data">Sofa Cleaning<br><span class="card-data-span">Service</span></p>
+                    </div>
+                    <div class="cards card-4">
+                        <img class="card-img" src="/house.png">
+                        <p class="card-data">Home Deep<br><span class="card-data-span">Services</span></p>
+                    </div>
+                    <div class="cards card-5">
+                        <img class="card-img" src="/window-ac.png">
+                        <p class="card-data">Air-Conditioner <br><span class="card-data-span">Services</span></p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="wrapper">
+                <div class="wrapper-data-1">
+                    <h2 class="wrapper-heading">
+                        Same Day Services
+                    </h2>
+                </div>
+                <div class="wrapper-data-2">
+                    <p class="wrapper-bio">Premium Home Services</p>
+                </div>
+                <div class="wrapper-data-3">
+                    <div class="cards-two card-1-1">
+                        <img class="card-img-second" src="/person-1.png">
+                        <p class="card-data-1">Carpentry <br><span>Services</span></p>
+                    </div>
+                    <div class="cards-two card-2-2">
+                        <img class="card-img-second" src="/person-2.png">
+                        <p class="card-data-1">plumbing<br>services</p>
+                    </div>
+                    <div class="cards-two card-3-3">
+                        <img class="card-img-second" src="/person-3.png">
+                        <p class="card-data-1">Electrical<br><span>Service</span></p>
+                    </div>
+                    <div class="cards-two card-4-4">
+                        <img class="card-img-second" src="/person-4.png">
+                        <p class="card-data-1">Painting<br><span>Services</span></p>
+                    </div>
+                    <div class="cards-two card-5-5">
+                        <img class="card-img-second" src="/person-4.png">
+                        <p class="card-data-1">Pest-control <br><span>Services</span></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-services">
+                <div class="services">
+                    <div class="service-head-div">
+                        <h2 class="services-head">100% Safe Services</h2>
+                    </div>
+                    <div class="service-list-div">
+                        <ul class="service-list-1">
+                            <li class="service-list-item service-list-item-1">Masks</li>
+                            <li class="service-list-item service-list-item-3">Gloves</li>
+
+                        </ul>
+                        <ul class="service-list-2">
+                            <li class="service-list-item service-list-item-2">Temperature Checks</li>
+                            <li class="service-list-item service-list-item-4">Sanitized tools</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="services-pic">
+                    <img class="services-photo" src="/person-ad.png">
+                </div>
+            </section>
+
+            <section class="add-services">
+                <div class="add-services-data-1">
+                    <h2 class="add-services-heading">
+                        Professional Cleaning Services
+                    </h2>
+                </div>
+                <div class="add-services-data-2">
+                    <p class="add-services-bio">Premium Home Services</p>
+                </div>
+                <div class="add-services-data-3">
+                    <div class="services-cards">
+                        <div class="service-card">
+                            <img src="/brown-img.png">
+                            <div class="service-card-data">
+                                <p class="service-card-bio">Professional Deep Cleaning</p>
+                                <p class="service-card-bio-2">For spring clean for end of lease clean</p>
+                            </div>
+                        </div>
+                        <div class="service-card service-card-2">
+                            <img src="/brown-img.png">
+                            <div class="service-card-data">
+                                <p class="service-card-bio">Professional Deep Cleaning</p>
+                                <p class="service-card-bio-2">For spring clean for end of lease clean</p>
+                            </div>
+                        </div>
+                        <div class="service-card service-card-3">
+                            <img src="/brown-img.png">
+                            <div class="service-card-data">
+                                <p class="service-card-bio">Professional Deep Cleaning</p>
+                                <p class="service-card-bio-2">For spring clean for end of lease clean</p>
+                            </div>
+                        </div>
+                        <div class="service-card service-card-4">
+                            <img src="/brown-img.png">
+                            <div class="service-card-data">
+                                <p class="service-card-bio">Professional Deep Cleaning</p>
+                                <p class="service-card-bio-2">For spring clean for end of lease clean</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="add-services add-services-2">
+                <div class="add-services-data-1">
+                    <h2 class="add-services-heading">
+                        Most Used Services
+                    </h2>
+                </div>
+                <div class="add-services-data-2">
+                    <p class="add-services-bio">Premium Home Services</p>
+                </div>
+                <div class="add-services-data-3">
+                    <div class="services-cards">
+                        <div class="service-card">
+                            <img src="/brown-img.png">
+                            <div class="service-card-data">
+                                <p class="service-card-bio">Professional Deep Cleaning</p>
+                                <p class="service-card-bio-2">For spring clean for end of lease clean</p>
+                            </div>
+                        </div>
+                        <div class="service-card service-card-2">
+                            <img src="/brown-img.png">
+                            <div class="service-card-data">
+                                <p class="service-card-bio">Professional Deep Cleaning</p>
+                                <p class="service-card-bio-2">For spring clean for end of lease clean</p>
+                            </div>
+                        </div>
+                        <div class="service-card service-card-3">
+                            <img src="/brown-img.png">
+                            <div class="service-card-data">
+                                <p class="service-card-bio">Professional Deep Cleaning</p>
+                                <p class="service-card-bio-2">For spring clean for end of lease clean</p>
+                            </div>
+                        </div>
+                        <div class="service-card service-card-4">
+                            <img src="/brown-img.png">
+                            <div class="service-card-data">
+                                <p class="service-card-bio">Professional Deep Cleaning</p>
+                                <p class="service-card-bio-2">For spring clean for end of lease clean</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="ad">
+                <div class="ad-heading-div">
+                    <h2 class="ad-heading">Assured Peace of Mind</h2>
+                </div>
+                <div class="ad-data-div">
+                    <div class="ad-box-1">
+                        <img class="ad-box-1-img" src="/box-1-img.png">
+                        <div class="ad-box-1-details">
+                            <h3 class="ad-box-1-heading">High Quality Work</h3>
+                            <p class="ad-box-1-data">Only authorized service experts and <br> genuine spare parts and
+                                equipments</p>
+                        </div>
+                    </div>
+                    <div class="ad-box-2">
+                        <img class="ad-box-2-img" src="/box-2-img.png">
+                        <div class="ad-box-2-details">
+                            <h3 class="ad-box-2-heading">Hassle Free</h3>
+                            <p class="ad-box-2-data">Sit back and relax.
+                                <br>
+                                We do all the work
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ad-box-3">
+                        <img class="ad-box-3-img" src="/box-3-img.png">
+                        <div class="ad-box-3-details">
+                            <h3 class="ad-box-3-heading">High Quality Work</h3>
+                            <p class="ad-box-3-data">Pay online for Secure payment.
+                                <br>
+                                Many benefits,offers available with online payment
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="add-services add-services-2">
+                <div class="add-services-data-1">
+                    <h2 class="add-services-heading">
+                        Most Used Services
+                    </h2>
+                </div>
+                <div class="add-services-data-2">
+                    <p class="add-services-bio">Premium Home Services</p>
+                </div>
+                <div class="add-services-data-3">
+                    <div class="services-cards">
+                        <div class="service-card">
+                            <img src="/brown-img.png">
+                            <div class="service-card-data">
+                                <p class="service-card-bio">Professional Deep Cleaning</p>
+                                <p class="service-card-bio-2">For spring clean for end of lease clean</p>
+                            </div>
+                        </div>
+                        <div class="service-card service-card-2">
+                            <img src="/brown-img.png">
+                            <div class="service-card-data">
+                                <p class="service-card-bio">Professional Deep Cleaning</p>
+                                <p class="service-card-bio-2">For spring clean for end of lease clean</p>
+                            </div>
+                        </div>
+                        <div class="service-card service-card-3">
+                            <img src="/brown-img.png">
+                            <div class="service-card-data">
+                                <p class="service-card-bio">Professional Deep Cleaning</p>
+                                <p class="service-card-bio-2">For spring clean for end of lease clean</p>
+                            </div>
+                        </div>
+                        <div class="service-card service-card-4">
+                            <img src="/brown-img.png">
+                            <div class="service-card-data">
+                                <p class="service-card-bio">Professional Deep Cleaning</p>
+                                <p class="service-card-bio-2">For spring clean for end of lease clean</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="banner">
+                <div class="banner-picture">
+                    <img class="banner-img" src="/banner.png">
+                </div>
+                <div class="banner-details">
+                    <h1 class="banner-heading">TRY OUR TRENDING SERVICES <br><span
+                            class="banner-heading-span"></span>WITH UPTO 50% OFF!</h1>
+                    <div class="banner-para">
+                        <img class="line-img" src="/line-img.png">
+                        <p class="banner-bio">On any service you book</p>
+                        <img class="line-img" src="/line-img.png">
+                    </div>
+                    <button class="banner-btn">BOOK A SERVICE</button>
+                </div>
+            </section>
+
+            <section class="choice">
+                <div class="choice-picture">
+                    <img class="choice-img" src="/choice-img.png">
+                </div>
+                <div class="grey-box">
+                    <div class="white-box">
+                        <div class="white-box-head-div">
+                            <h1 class="white-box-head">Why People Choose Us</h1>
+                        </div>
+                        <div class="white-box-lists-div">
+                            <ul class="white-box-lists">
+                                <li class="white-box-list">Affordable Rates</li>
+                                <li class="white-box-list">On Time Service</li>
+                                <li class="white-box-list">Verified Professionals</li>
+                                <li class="white-box-list">Excellent Service</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="customers-section">
+                <div class="customers-head-div">
+                    <h1 class="customers-head">What our customers say </h1>
+                </div>
+                <div class="customer-cards">
+                    <div class="customer-card">
+                        <img class="quotation-symbol" src="/quote.png">
+                        <p class="review">Speaker/View Details Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nulla cursus eleifend augue volutpat hendrerit. </p>
+                        <p class="customer-name">Ritu Kumar</p>
+                    </div>
+                    <div class="customer-card">
+                        <img class="quotation-symbol" src="/quote.png">
+                        <p class="review">Speaker/View Details Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nulla cursus eleifend augue volutpat hendrerit. </p>
+                        <p class="customer-name">Ritu Kumar</p>
+                    </div>
+                    <div class="customer-card">
+                        <img class="quotation-symbol" src="/quote.png">
+                        <p class="review">Speaker/View Details Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nulla cursus eleifend augue volutpat hendrerit. </p>
+                        <p class="customer-name">Ritu Kumar</p>
+                    </div>
+                    <div class="customer-card">
+                        <img class="quotation-symbol" src="/quote.png">
+                        <p class="review">Speaker/View Details Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nulla cursus eleifend augue volutpat hendrerit. </p>
+                        <p class="customer-name">Ritu Kumar</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="application">
+                <div class="app-data-div">
+                    <div class="app-data">
+                        <h1 class="app-data-head">Refer and or get link</h1>
+                        <p class="app-data-bio">Invite your friends</p>
+                        <div class="number-box">
+                            <div class="search-box">
+                                <img class="arrow-icon" src="/arrow-btn.png">
+                            </div>
+                            <input class="input-box" type="text" placeholder="Enter 10 digit number">
+                        </div>
+                        <div class="app-images">
+                            <img class="app-store-img" src="/appstorediv.png">
+                            <img class="play-store-img" src="/appp.png">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-photo-div">
+                    <div class="mobile-img-div">
+                        <img class="mobile-img" src="/mobile1.png">
+                        <img class="mobile-img mobile-img-2" src="/mobile2.png">
+                    </div>
+                </div>
+            </section>
+
+            <section style="margin: 50px 0;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid,
+                reiciendis! Quos consectetur ratione aut dignissimos error a quaerat exercitationem deserunt possimus
+                dolores aliquid nihil distinctio, ab saepe molestias illo velit, similique vitae tempore impedit.
+                Similique fugit magnam aut praesentium quasi laborum. Ratione perspiciatis reprehenderit excepturi
+                doloribus aliquid optio, veniam in officiis porro fugiat reiciendis et, ipsum nesciunt totam dolorum, a
+                autem aperiam? Dolores cupiditate excepturi velit impedit consectetur temporibus, ullam autem sint quod
+                id assumenda a animi? Vel laboriosam, porro unde, optio quia neque harum omnis, adipisci error saepe
+                voluptatem qui. Doloribus, necessitatibus. Perferendis blanditiis accusantium necessitatibus accusamus
+                placeat tempora.</section>
+
+            <!-- <section class="slider"> -->
+            <!-- <div class="slider-container">
+                    <div class="wrapper-data-1">
+                        <h2 class="wrapper-heading">
+                            Electrician Services
+                        </h2>
+                    </div>
+                    <div class="wrapper-data-2">
+                        <p class="wrapper-bio">Premium Home Services</p>
+                    </div>
+                </div> -->
+            <!-- <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="wrapper-data-3">
+                                <div class="swiper-slide">
+                                    <div class="cards card-1 ">
+                                        <img class="card-img" src="/fuse.png">
+                                        <p class="card-data">Air-Conditioner <br><span
+                                                class="card-data-span">Services</span></p>
+                                    </div>
+                                </div>
+                                <div class="cards card-2">
+                                    <img class="card-img" src="/socket.png">
+                                    <p class="card-data">Ac Installation</p>
+                                </div>
+                                <div class="cards card-3">
+                                    <img class="card-img" src="/wiring.png">
+                                    <p class="card-data">Sofa Cleaning<br><span class="card-data-span">Service</span>
+                                    </p>
+                                </div>
+                                <div class="cards card-4">
+                                    <img class="card-img" src="/appliance.png">
+                                    <p class="card-data">Home Deep<br><span class="card-data-span">Services</span></p>
+                                </div>
+                                <div class="cards card-5">
+                                    <img class="card-img" src="/chandelier.png">
+                                    <p class="card-data">Air-Conditioner <br><span
+                                            class="card-data-span">Services</span></p>
+                                </div> 
+                                <div class="cards card-5">
+                                    <img class="card-img" src="/door_bell.png">
+                                    <p class="card-data">Air-Conditioner <br><span
+                                            class="card-data-span">Services</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div> -->
+            <!-- <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="cards-two">
+                                <img class="card-img-second" src="/person-1.png">
+                                <p class="card-data-1">Carpentry <br><span>Services</span></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cards-two">
+                                <img class="card-img-second" src="/person-1.png">
+                                <p class="card-data-1">Carpentry <br><span>Services</span></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cards-two">
+                                <img class="card-img-second" src="/person-1.png">
+                                <p class="card-data-1">Carpentry <br><span>Services</span></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cards-two">
+                                <img class="card-img-second" src="/person-1.png">
+                                <p class="card-data-1">Carpentry <br><span> four Services</span></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cards-two">
+                                <img class="card-img-second" src="/person-1.png">
+                                <p class="card-data-1">Carpentry <br><span> five Services</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"><img src="/left-arrow.png"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div> -->
+            <!-- <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="cards-two">
+                                <img class="card-img-second" src="/person-1.png">
+                                <p class="card-data-1">Carpentry <br><span>Services</span></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cards-two">
+                                <img class="card-img-second" src="/person-1.png">
+                                <p class="card-data-1">Carpentry <br><span>Services</span></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cards-two">
+                                <img class="card-img-second" src="/person-1.png">
+                                <p class="card-data-1">Carpentry <br><span>Services</span></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cards-two">
+                                <img class="card-img-second" src="/person-1.png">
+                                <p class="card-data-1">Carpentry <br><span> four Services</span></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cards-two">
+                                <img class="card-img-second" src="/person-1.png">
+                                <p class="card-data-1">Carpentry <br><span> five Services</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"><img src="/left-arrow.png"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div> -->
+            <!-- </section> -->
+
+            <section class="footer-section">
+                <div class="footer">
+                    <div class="footer-1">
+                        <p class="footer-heading">RELATED SERVICES</p>
+                        <p class="footer-data-1">Electrician | Plumber | Carpenter | Packers & Movers | Salon For Woman |
+                            Salon For Man | Electronic Appliances | CCTV Installation & Repair | Ro- repair & service |
+                            house Painter | Pest Control | Kitchen Cleaning | Bathroom Cleaning | Sofa Cleaning | Carpet
+                            Cleaning | Home Deep Cleaning </p>
+                    </div>
+                    <div class="footer-2">
+                        <p class="footer-heading">TOP LOCATIONS</p>
+                        <p class="footer-data-2">Delhi | Gurgaon | Noida | Ghaziabad | Faridhabad | Greater Noida</p>
+                    </div>
+                    <div class="footer-3">
+                        <p>About Us</p>
+                        <p>Blog</p>
+                        <p>Near me</p>
+                        <p>Careers</p>
+                        <p>Terms and conditions</p>
+                        <p>Privacy Policy</p>
+                        <p>Offer & Gift Cards</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="footer-4">
+                        <div class="contact-div">
+                            <p class="contact-head"> Contact Us</p>
+                            <div class="contact-bio-div">
+                                <p class="contact-bio">Phone : +91 9990001089</p>
+                                <p class="contact-bio">Email : support@oyebusy.com</p>
+                            </div>
+                        </div>
+                        <div class="app-div">
+                            <p class="contact-head">Download Oyebusy App</p>
+                            <img src="/playstorediv.png">
+                        </div>
+                    </div>
+                    
+                    <div class="footer-5">
+                        <div class="icons">
+                            <div class="app-icons">
+                                <img src="/insta.png" class="app-icon-1">
+                                <img src="/twitter.png" class="app-icon-1">
+                                <img src="/linkedin.png" class="app-icon-1">
+                                <img src="/facebook.png" class="app-icon-1">
+                                <img src="/youtube.png" class="app-icon-1">
+                                <img src="/pintrest.png" class="app-icon-1">
+                            </div>
+
+                        </div>
+                        <div class="copy-right">
+                            <p class="app-bio">© 2021 OyeBusy Technologies Pvt. Ltd. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item active">
+                        <a href="#" class="nav__link" active><img src="./home.png" class="imgbtm-icon">
+                            <!-- <span>Home</span> -->
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"><img src="./search.png" class="imgbtm-icon">
+                            <span></span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"><img src="./to-do-list.png" class="imgbtm-icon">
+                            <span></span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"><img src="./bell.png" class="imgbtm-icon active">
+                            <span></span>
+                        </a>
+                    </li>
+                </ul>
+    
+            </div>
+        </main>
+    </div>
+
+    <script src="/app.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="/swiper-bundle.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+
+</body>
+
+</html>
